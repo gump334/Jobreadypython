@@ -46,3 +46,22 @@ while fruit != "stop":
   else:
     print("try again!!!")
 print("thank you for playing")
+
+print()
+#Created loops that states if a number can be devided by 50 evenly with for and while loops
+for x in range(100,1001):
+  if x % 50 == 0:
+    print(f"{x} is even")
+
+print()
+#
+x = 100
+while x < 1000:
+  x += 1
+  if x % 50 == 0:
+    print(f"{x} is even")
+    continue
+    
+    
+    
+  
